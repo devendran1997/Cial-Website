@@ -1,553 +1,597 @@
 @media (min-width: 992px) and (max-width: 1199px){
-    .logo{
-        padding: 0 30px;
-    }
     .menu li{
-        padding: 0 25px 0 0;
+        padding: 0 30px 0 0;
     }
     .menu li a{
-        font-size: 15px;
+        font-size: 13px;
+        padding: 15px 20px;
     }
-    .banner-inner{
-        width: 50%;
+    .banner-blog h1{
+        font-size: 60px;
+        margin: 0 0 50px 0;
     }
-    .banner{
-        padding: 60px 0;
+    .banner-pic{
+        margin: 0 0 40px 0;
     }
-    .banner-inner h1{
-        margin: 0 0 30px 0;
+    .carousel-control-prev {
+        width: 95%;
     }
-    .banner-inner p{
-        margin: 0 0 30px 0;
+    .carousel-control-next {
+        width: 93%;
     }
-    .welcome-content-inner{
-        margin-top: -70px;
+    .class-box-inner{
+        padding: 40px 60px 60px 60px;
     }
-    .welcome-content-inner h1{
-        font-size: 30px;
+    .class-btn{
+        padding-left: 28px;
     }
-    .welcome-content-inner p{
-        font-size: 15px;
+    .about-box{
+        padding: 0px;
     }
-    .welcome{
-        background-size: 40%;
+    .about-pic img{
+        width: 105%;
     }
-    .project-content-inner{
-        width: 70%;
-        margin: 0 auto;
+    .about-pic{
+        position: relative;
+        top: 5%;
     }
-    .project-circle{
-        left: 1%;
+    .about-blog h1{
+        margin-bottom: 40px;
     }
-    .overlay2{
-        top: 15%;
-        bottom: 16%;
+    .about-box p{
+        margin-bottom: 35px;
     }
-    .project-blk3{
-        top: 27%;
-        left: 33%;
+    .shop-blog{
+        width: 54%;
     }
-    .overlay4{
-        top: -21%;
+    .shop-box2 h1{
+        margin-bottom: 40px;
     }
-    .project-blk4{
-        top: 7%;
+    .shop-box2 p{
+        margin-bottom: 40px;
+    }
+    .shop-box2{
+        padding: 150px 0;
+    }
+    .jone-lo{
+        top: 0%;
+        right: 77%;
+    }
+    .disol{
+        top: 0%;
+        right: 5%;
+    }
+    .michale{
+        right: 39%;
     }
     .footer-inner{
         flex-wrap: nowrap;
     }
-
+    .form-btn{
+        margin-top: 22px;
+    }
+    .footer-media{
+        padding: 0 15px 0 0;
+    }
 }
-
 @media (min-width: 768px) and (max-width: 991px){
-    .logo{
-        padding: 0 20px;
-    }
-    .menu{
-        padding: 14px 0 0 0;
-    }
     .menu li{
         padding: 0 20px 0 0;
     }
     .menu li a{
-        font-size: 12px;
+        font-size: 11px;
+        padding: 15px 25px;
     }
-    .banner{
-        padding: 50px 0;
+    .icon-blog{
+        margin-top: -20px;
     }
-    .banner-inner{
-        width: 44%;
+    .logo{
+        margin-bottom: 20px;
     }
-    .banner-inner h1{
-        font-size: 38px;
+    .banner-blog h1{
+        font-size: 50px;
         margin: 0 0 30px 0;
     }
-    .banner-inner p{
-        font-size: 14px;
+    .banner-pic{
         margin: 0 0 30px 0;
     }
-    .banner-btn a{
-        font-size: 12px;
-        padding: 10px 39px;
+    .carousel-control-prev{
+        top: 85%;
+        width: 96%;
     }
-    .welcome-content-inner{
-        margin-top: -80px;
+    .carousel-control-next{
+        top: 85%;
+        width: 88%;
     }
-    .welcome-content-inner h1{
-        font-size: 24px;
-    }
-    .welcome-content-inner p{
-        font-size: 13px;
-    }
-    .welcome-content-inner a{
+    .class-btn a{
         font-size: 14px;
-        padding: 15px 50px;
     }
-    .welcome{
-        background-size: 50%;
+    .class-btn a::after{
+        width: 110px;
     }
-    .do-box h2{
-        font-size: 18px;
+    .class-btn{
+        padding-left: 20px;
     }
-    .do-box p{
-        font-size: 10px;
+    .class-box-inner{
+        padding: 48px 35px 68px 35px;
     }
-    .do-box a{
-        font-size: 12px;
-        padding: 10px 30px;
+    .class-box-inner p{
+        font-size: 14px;
     }
-    .project-content{
+    .about-box{
+        padding: 0 0 50px 0;
+    }
+    .about-pic img{
+        width: 104%;
+    }
+    .about-blog h1{
+        margin-bottom: 20px;
+    }
+    .about-box p{
+        font-size: 14px;
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+    .about-pic{
+        position: relative;
+        top: 20%;
+    }
+    .video{
+        padding: 80px 0;
+    }
+    .video-top h1{
+        font-size: 35px;
+    }
+    .video-top p{
+        font-size: 14px;
+    }
+    .video-blog a{
+        font-size: 14px;
+    }
+    .video-blog a::after{
+        width: 120px;
+    }
+    .video-blog{
+        padding: 0px;
+    }
+    .skating2{
+        margin-bottom: 77px;
+    }
+    .skating3{
+        margin-bottom: 100px;
+    }
+    .shop-blog{
+        width: 80%;
+    }
+    .shop-box2 h1{
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .shop-box2 p{
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    .shop-box2{
         padding: 90px 0;
     }
-    .project-content-inner{
-        width: 66%;
-        margin: 0 auto;
-    
+    .shop{
+        padding: 50px 0;
     }
-    .project-content a{
-        font-size: 15px;
-        padding: 15px 50px;
+    .jone-lo{
+        right: 75%;
+        top: -3%;
     }
-    .project-circle{
-        left: 0%;
-        top: 65%;
+    .michale{
+        right: 35%;
+        top: -25%;
     }
-    .project-blk img{
-        padding: 20px;
+    .disol{
+        right: 2%;
+        top: -3%;
     }
-    .project-blk2 img{
-        padding: 20px;
-    }
-    .project-blk3 img{
-        padding: 20px;
-    }
-    .project-blk4 img{
-        padding: 20px;
-    }
-    .project-pic2{
-        margin-top: 25px;
-    }
-    .project-pic4{
-        margin-top: -35px;
-    }
-    .overlay2{
-        top: 10%;
-        bottom: 21%;
-    }
-    .project-blk2{
-        top: 35%;
-    }
-    .project-blk3{
-        top: 25%;
-    }
-    .overlay4{
-        top: -21%;
-        bottom: 31%;
-    }
-    .project-blk4{
-        top: 5%;
-    }
-    .business-box h1{
-        font-size: 34px;
-    }
-    .business-box p{
+    .testimonial-box-inner h2{
         font-size: 18px;
     }
-    .circle{
-        width: 150px;
-        height: 150px;
-        border-radius: 150px;
-    }
-    .team-top h1{
-        font-size: 28px;
-    }
-    .client-content p{
+    .testimonial-box-inner p{
         font-size: 14px;
+        line-height: 26px;
+    }
+    .testimonial-box-inner{
+        padding: 70px 25px 30px 25px;
+    }
+    .testimonial-box-inner2 h2{
+        font-size: 24px;
+    }
+    .testimonial-box-inner2 p{
+        font-size: 14px;
+    }
+    .testimonial-box-inner2{
+        padding: 90px 65px 50px 65px;
     }
     .footer-inner{
         flex-wrap: nowrap;
     }
+    .input-field input{
+        font-size: 14px;
+    }
+    .form-btn a{
+        font-size: 14px;
+        padding: 17px 45px;
+    }
+    .footer-box2{
+        padding-left: 20px;
+    }
+    .form-btn{
+        margin-top: 20px;
+    }
     .footer-box h1{
-        font-size: 20px;
+        font-size: 24px;
     }
-    .location a{
+    .footer-box2 h1{
+        font-size: 24px;
+    }
+    .contact-blk h2{
         font-size: 14px;
     }
-    .mail a{
-        font-size: 14px;
+    .footer-box{
+        margin-top: 0px;
     }
-    .mobile a{
-        font-size: 14px;
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .banner-inner{
+        flex-direction: column;
     }
-    .footer-box-inner{
+    .banner-pic2{
+        margin-bottom: 30px;
+    }
+    .carousel-control-next{
+        top: 100%;
+        width: 77%;
+    }
+    .carousel-control-prev{
+        top: 100%;
         width: 100%;
     }
-    .footer-box-inner p{
+    .menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu li{
+        padding: 0 0 30px 0;
+    }
+    .menu li a{
+        font-size: 12px;
+        padding: 15px 15px;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .class-bottom{
+        flex-direction: column;
+    }
+    .class-box{
+        margin-bottom: 50px;
+    }
+    .class-btn{
+        padding-left: 135px;
+    }
+    .about-inner{
+        flex-direction: column;
+    }
+    .about-pic img{
+        width: 100%;
+    }
+    figure{
+        margin-bottom: 0px;
+    }
+    .about-pic{
+        position: relative;
+        bottom: -9px;
+    }
+    .about-box{
+        padding-left: 25px;
+    }
+    .video-bottom{
+        flex-direction: column;
+    }
+    .video-box{
+        margin-bottom: 30px;
+    }
+    .video-blog{
+        padding: 0 0 0 150px;
+    }
+    .video-top h1{
+        font-size: 35px;
+    }
+    .video-top p{
+        font-size: 12px;
+    }
+    .skating{
+        text-align: center;
+    }
+    .skating2{
+        text-align: center;
+    }
+    .skating3{
+        text-align: center;
+    }
+    .shop-inner{
+        flex-direction: column;
+    }
+    .shop-box2 h1{
+        font-size: 35px;
+    }
+    .shop-blog{
+        width: 40%;
+    }
+    .shop-box2{
+        padding: 0 0 0 25px
+    }
+    .shop-box{
+        margin-bottom: 50px;
+    }
+    .shop-pic img{
+        width: 100%;
+    }
+    .testimonial-blog{
+        flex-direction: column;
+    }
+    .testimonial-box{
+        margin-bottom: 70px;
+    }
+    .jone-lo{
+        right: 35%;
+    }
+    .michale{
+        right: 30%;
+        top: 27%
+    }
+    .disol{
+        right: 35%;
+        top: 66%;
+    }
+  
+    .footer-box2{
+        padding: 0px;
+    }
+    .input-field{
+        margin-top: -27px;
+    }
+    .form-btn a{
         font-size: 14px;
     }
     .input-field input{
-        width: 95%;
-        font-size: 12px;
+        font-size: 14px;
     }
-    .subscribe a{
-        font-size: 12px;
-        padding: 10px 20px;
-    }
-    .apps li{
-        padding: 0 20px 0 0;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 767px){
-    .menu{
-        flex-direction: column;
-        text-align: center;
-    }
-    .header{
-        flex-direction: column;
-    }
-    .menu li{
-        padding: 0 0 30px 0;
-    }
-    .navbar {
-        justify-content: center;
-    }
-    .headerbg{
-        background-size: 100%;
-    }
-    .banner-inner{
-        width: 100%;
-    }
-    .banner-btn a{
-        padding: 15px 50px;
-    }
-    .welcome{
-        background-size: cover;
-        background-position: 100%;
-    }
-    .welcome-content-inner{
+    .footer-box{
         margin-top: 0px;
     }
-    .welcome-inner{
-        flex-direction: column;
+    .footer{
+        padding: 100px 0;
     }
-    .welcome-content-inner h1{
-        font-size: 28px;
+    .form-btn{
+        margin-top: -6px;
     }
-    .welcome-blog img{
-        margin-top: 0px;
-        width: auto;
+    .footer-box2{
+        border-left: 0px;
     }
-    .welcome-content{
-        margin: 0 0 50px 0;
+    #slider-direction-nav {
+        top: 103%;
     }
-    .welcome-blog{
-        margin-bottom: 250px;
-    }
-    .do-bottom{
-        flex-direction: column;
-    }
-    .do-box{
-        margin: 0 0 50px 0;
-    }
-    .do-top h1::before{
-        left: 44%;
-    }
-    .project-content-inner{
-        width: 60%;
-        margin: 0 auto;
-    }
-    .project-inner{
-        flex-direction: column;
-    }
-    .project-circle{
-        left: 4%;
-    }
-    .business-inner{
-        flex-direction: column;
-    }
-    .business-box{
-        margin: 0 0 50px 0;
-    }
-    .team-top{
-        width: 100%;
-    }
-    .team-bottom{
-        flex-direction: column;
-    }
-    .team-box{
-        margin: 0 0 50px 0;
-    }
-    .client-content p{
+    .contact-blk h2{
         font-size: 12px;
     }
-    .footer-inner{
-        flex-direction: column;
-        text-align: center;
+    .copyright-inner p{
+        font-size: 14px;
     }
-    .location{
-        justify-content: center;
+    .footer-media{
+        padding: 0 14px 0 0;
     }
-    .mobile{
-        justify-content: center;
+    .footer-menu{
+        padding-left: 30px;
     }
-    .mail{
-        justify-content: center;
-    }
-    .footer-blog{
-        justify-content: center;
-        margin-left: 0px;
-    }
-    .footer-box-inner{
-        width: 100%;
-    }
-    .apps{
-        justify-content: center;
-    }
-
 }
-
 @media (min-width: 320px) and (max-width: 575px){
+    .banner{
+        padding: 30px 0;
+    }
+    .banner-inner{
+        flex-direction: column;
+    }
+    .carousel-control-next{
+        top: 105%;
+        width: 60%;
+    }
+    .carousel-control-prev{
+        top: 105%;
+        width: 100%;
+    }
     .menu{
         flex-direction: column;
         text-align: center;
     }
-    .header{
-        flex-direction: column;
-    }
     .menu li{
         padding: 0 0 30px 0;
     }
-    .navbar {
-        justify-content: center;
-    }
-    .headerbg{
-        background-size: 100%;
-    }
-    .banner-inner{
-        width: 100%;
-    }
-    .banner-inner h1{
-        font-size: 52px;
-    }
-    .banner-btn a{
+    .menu li a{
         font-size: 12px;
-        padding: 15px 30px;
+        padding: 15px 15px;
     }
-
-    .welcome{
-        background-size: cover;
-        background-position: 100%;
-    }
-    .welcome-content-inner{
-        margin-top: 0px;
-    }
-    .welcome-inner{
-        flex-direction: column;
-    }
-    .welcome-content-inner h1{
-        font-size: 28px;
-    }
-    .welcome-blog img{
-        margin-top: 0px;
-        width: 100%;
-    }
-    .welcome-content{
-        margin: 0 0 50px 0;
-    }
-    .do-bottom{
-        flex-direction: column;
-    }
-    .do-box{
-        margin: 0 0 50px 0;
-
-    }
-    .do-top p{
-        font-size: 14px;
-    }
-
-    .welcome-blog{
-        margin-bottom: 200px;
-    }
-    .do-top h1::before{
-        left: 40%;
-    }
-    .project-content-inner{
-        width: 100%;
-        text-align: center;
-    }
-    .project-content h1{
-        font-size: 32px;
-    }
-    .project-content p{
-        font-size: 14px;
-    }
-    .project-content a{
-        font-size: 14px;
-        padding: 15px 50px;
-    }
-    .project-circle{
-        left: 2%;
-    }
-    .project-inner{
-        flex-direction: column;
-    }
-    .project-blog-inner{
-        flex-direction: column;
-    }
-    .project-box{
-        margin: 0 0 30px 0;
-    }
-    .project-pic4{
-        margin-top: 0px;
-    }
-    .overlay2{
-        top: 13%;
-        bottom: 4%;
-    }
-    .project-blk2{
-        top: 43%;
-        left: 37%;
-    }
-    .overlay4{
-        top: 0%;
-        bottom: 5%;
-    }
-    .project-blk4{
-        top: 35%;
-    }
-    .business-inner{
-        flex-direction: column;
-    }
-    .business-box{
-        margin: 0 0 50px 0;
-    }
-    .team-top{
-        width: 100%;
-    }
-    .team-bottom{
-        flex-direction: column;
-    }
-    .team-box{
-        margin: 0 0 50px 0;
-    }
-    .team-top h1{
-        font-size: 22px;
-    }
-    .team-top p{
-        font-size: 14px;
-    }
-    .team-top h1::before{
-        left: 37%;
-    }
-    .circle-red{
-        margin: 48px 20px 0 0;
-        height: 45px;
-    }
-    .circle-blue{
-        margin: 35px 0 0 15px;
-        height: 65px;
-    }
-    .client-blog img{
-        width: 100%;
-    }
-    .client-top h1{
-        font-size: 21px;
-    }
-    .client-content{
-        width: 100%;
-    }
-    .client-content p{
-        font-size: 14px;
-    }
-    .footer-inner{
-        flex-direction: column;
-        text-align: center;
-    }
-    .location{
-        justify-content: center;
-    }
-    .mobile{
-        justify-content: center;
-    }
-    .mail{
-        justify-content: center;
-    }
-    .footer-blog{
-        justify-content: center;
-        margin-left: 0px;
-    }
-    .footer-box-inner{
-        width: 100%;
-    }
-    .apps{
-        justify-content: center;
-    }
-    .footer-box h1{
-        font-size: 22px;
-    }
-    .footer-box-inner p{
-        font-size: 12px;
-    }
-    .copyright{
-        width: 100%;
-    }
-    .copyright p{
-        font-size: 12px;
-    }
-    .banner {
-        padding: 50px 0 280px 0;
-    }
-    .headerbg {
-        background-position: bottom;
-    }
-    .project-content {
-        padding: 60px 0;
-    }
-    .project-content a {
+    .logo{
         margin-bottom: 20px;
     }
-    .project-circle {
-        position: relative;
+    .class{
+        padding: 75px 0;
     }
-    .do-box:last-child {
+    .class-bottom{
+        flex-direction: column;
+    }
+    .class-box{
+        margin-bottom: 50px;
+    }
+    .class-btn{
+        padding-left: 25px;
+    }
+    .class-top h1{
+        font-size: 28px;
+    }
+    .class-top p{
+        font-size: 12px;
+    }
+    .class-box-inner{
+        padding: 48px 50px 68px 50px;
+    }
+    .about-inner{
+        flex-direction: column;
+    }
+    .about-pic img{
+        width: 100%;
+    }
+    figure{
         margin-bottom: 0px;
     }
-    .do-bottom {
-        padding: 0 10px;
+    .about-pic{
+        position: relative;
+        bottom: -5px;
     }
-    .client-top h1:before {
-        margin-top: 0px;
-        left: 39%;
-        bottom: 30px;
+    .video{
+        padding: 80px 0;
     }
-    .team {
-        padding: 70px 0;
+    .video-bottom{
+        flex-direction: column;
     }
-    .client {
+    .video-box{
+        margin-bottom: 30px;
+    }
+    .video-blog{
+        padding: 0 0 0 40px;
+    }
+    .video-top h1{
+        font-size: 35px;
+    }
+    .video-top p{
+        font-size: 12px;
+    }
+    .skating{
+        text-align: center;
+    }
+    .skating2{
+        text-align: center;
+    }
+    .skating3{
+        text-align: center;
+    }
+    .shop-inner{
+        flex-direction: column;
+    }
+    .shop-box2 h1{
+        font-size: 35px;
+    }
+    .shop-blog{
+        width: 55%;
+    }
+    .shop-box2{
+        padding: 0 0 0 25px
+    }
+    .shop-box{
+        margin-bottom: 50px;
+    }
+    .shop-pic img{
+        width: 100%;
+    }
+    .about-box{
+        padding-left: 25px;
+    }
+    .shop{
         padding: 50px 0;
     }
-    .carousel-indicators {
-        bottom: 0%;
+    .shop-blog h1{
+        margin-bottom: 35px;
     }
+    .shop-box2 p{
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    .testimonial-blog{
+        flex-direction: column;
+    }
+    .testimonial-box{
+        margin-bottom: 70px;
+    }
+    .jone-lo{
+        right: 21%;
+    }
+    .michale{
+        right: 13%;
+        top: 27%
+    }
+    .disol{
+        right: 21%;
+        top: 69%;
+    }
+    .testimonial-box-inner2 p{
+        font-size: 14px;
+    }
+    #slider-direction-nav{
+        top: 102%;
+    }
+    .footer-box2{
+        padding: 0px;
+    }
+    .input-field{
+        margin-top: 0px;
+    }
+    .form-btn a{
+        font-size: 14px;
+    }
+    .input-field input{
+        font-size: 14px;
+    }
+    .footer-box{
+        margin-top: 0px;
+    }
+    .footer{
+        padding: 100px 0;
+    }
+    .form-btn{
+        margin-bottom: 30px;
+    }
+    .footer-box2{
+        border-left: 0px;
+    }
+  
+    .contact-blk h2{
+        font-size: 18px;
+    }
+    .copyright-inner p{
+        font-size: 11px;
+    }
+    .footer-media{
+        padding: 0 14px 0 0;
+        justify-content: center;
+    }
+
+    .footer-form{
+        flex-direction: column;
+    }
+    .footer-blog{
+        flex-direction: column;
+    }
+    .footer-menu{
+        flex-direction: column;
+    }
+    .footer-box h1{
+        font-size: 24px;
+    }
+    .footer-inner{
+        text-align: center;
+    }
+    .contact-blk{
+        justify-content: center;
+    }
+    .footer-menu li{
+        padding-right: 0px;
+    }
+
 }
+
